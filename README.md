@@ -16,3 +16,10 @@ My study of wch ch32f103 and ch32v103
 支持断点和烧录（如果是f103的话，需要换其他烧录器和调试器，如果硬来的话会报错）。  
 这里需要小心几点：烧录地址要选第一个，否则烧录后无法运行；不可以烧录f103的hex固件文件，  
 因为架构不同不兼容；usb口可能不支持husb烧录，可以尝试串口烧录或者wch-link烧录
+
+## 感想3, MounRiver Studio  
+总体来说，结合wch-link的使用（仅限于RISC-V版的ch32v103系列单片机），  
+MounRiver Studio的威力可以达到极致（不过也支持ARM架构），  
+已经很接近于keil 5的效果（当然，stm32cubemx的代码生成功能的威力仍旧没办法匹敌）。  
+如果喜欢断点的话可以选择ch32v103。按道理gd32vf103也可以做到这点，  
+不过MounRiver Studio也支持gd32vf103，所以自己按需选择了  
