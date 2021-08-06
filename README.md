@@ -58,3 +58,21 @@ PB6------>D-
 USB：  
 PA12----->D+  
 PA11----->D-  
+
+## ch32f103, usb烧录    
+http://www.wch.cn/downloads/CH32F103DS0_PDF.html  
+* 烧录态：  
+BOOT0<->VCC（杜邦线）（左1列倒2行，左2列倒3行）  
+BOOT1<->GND（跳帽）（左1列倒1行，左2列倒1行）  
+PA0<->LED1（杜邦线）（左1列4行，右1列1行）  
+P_HUSB1<->PC（如果接上，驱动正确，WCHISPTool会自动显示出设备）  
+* WCHISPTool：  
+选择32位 CH32F10X  
+取消启动读保护勾选  
+用户程序文件*.hex  
+点击下载按钮  
+* 运行态：  
+BOOT0<->GND（跳帽）（左1列倒2行，左2列倒2行）  
+BOOT1（悬空）  
+PA0<->LED1（杜邦线，闪烁蓝灯）（左1列4行，右1列1行）  
+P_USB<->S2 Left (开关向左，接通电源）D1红灯   
