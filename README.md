@@ -23,3 +23,13 @@ MounRiver Studio的威力可以达到极致（不过也支持ARM架构），
 已经很接近于keil 5的效果（当然，stm32cubemx的代码生成功能的威力仍旧没办法匹敌）。  
 如果喜欢断点的话可以选择ch32v103。按道理gd32vf103也可以做到这点，  
 不过MounRiver Studio也支持gd32vf103，所以自己按需选择了  
+
+## 烧录, 源地工作室, ch32v103r8t6, ch32v103c8t6  
+注意程序地址选第一个  
+3.3  
+DIO  
+CLK  
+GND  
+闪烁灯  
+PC13  
+兼容CH32V103C8T6  
