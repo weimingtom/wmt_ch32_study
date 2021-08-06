@@ -44,3 +44,17 @@ CH32V103用户手册：CH32xRM.PDF
 MounRiver Studio（MRS）：  
 【下载链接：】 http://mounriver.com/    
 
+## 串口烧录, ch32f103   
+Rxd——>A9  
+Txd---->A10  
+GND——>G  
+VCC——>3.3  
+
+## HUSB下载（不用额外的下载器，数据线就可以下载）, ch32f103    
+CH32F103有2个USB口，一个是主机usb，一个是设备usb。分别对应的管脚为：
+HUSB：  
+PB7------>D+  
+PB6------>D-  
+USB：  
+PA12----->D+  
+PA11----->D-  
