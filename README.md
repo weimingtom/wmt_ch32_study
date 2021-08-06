@@ -24,7 +24,7 @@ MounRiver Studio的威力可以达到极致（不过也支持ARM架构），
 如果喜欢断点的话可以选择ch32v103。按道理gd32vf103也可以做到这点，  
 不过MounRiver Studio也支持gd32vf103，所以自己按需选择了  
 
-## 烧录, 源地工作室, ch32v103r8t6, ch32v103c8t6  
+## WCH-Link烧录, 源地工作室, ch32v103r8t6, ch32v103c8t6  
 注意程序地址选第一个  
 3.3  
 DIO  
@@ -33,3 +33,14 @@ GND
 闪烁灯  
 PC13  
 兼容CH32V103C8T6  
+
+## WCH-Link 相关资料汇总及技术支持BBS:  
+【链接：】 http://wch.cn/bbs/thread-71088-1.htmlCH32V103 数据手册：CH32V103DS0.PDF   
+【下载链接：】 http://wch.cn/downloads/CH32V103DS0_PDF.html   
+CH32V103用户手册：CH32xRM.PDF  
+【下载链接：】 http://wch.cn/downloads/CH32xRM_PDF.html   
+ CH32V103官方例程：CH32V103EVT.ZIP  
+【下载链接：】 http://wch.cn/downloads/CH32V103EVT_ZIP.html   
+MounRiver Studio（MRS）：  
+【下载链接：】 http://mounriver.com/    
+
