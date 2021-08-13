@@ -98,3 +98,11 @@ BOOT1（悬空）
 PA0<->LED1（杜邦线，闪烁蓝灯）（左1列4行，右1列1行）  
 P_USB<->S2 Left (开关向左，接通电源）D1红灯  
 
+## ref  
+* CH32F103EVT.ZIP  
+http://www.wch.cn/downloads/CH32F103EVT_ZIP.html  
+* 选型  
+http://www.wch.cn/downloads/PRODUCT_GUIDE_PDF.html  
+* CH32V103EVT.ZIP  
+http://www.wch.cn/downloads/CH32V103EVT_ZIP.html  
+
